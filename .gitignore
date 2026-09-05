@@ -1,0 +1,122 @@
+# --- Secrets and credentials (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+*.keystore
+*.jks
+secrets/
+credentials/
+.secrets/
+auth.json
+service-account*.json
+*-credentials.json
+token.json
+tokens.json
+
+# --- Local config / production config ---
+config/local.yaml
+config/prod.yaml
+config/production.yaml
+config/secrets.yaml
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.installed.cfg
+MANIFEST
+
+# --- Virtualenvs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Test / type / lint caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# --- Runtime outputs of this extractor ---
+work/
+output/
+runs/
+artifacts/
+tmp/
+temp/
+
+# --- Source PDFs and client artefacts ---
+*.pdf
+!fixtures/**/*.md
+exports/
+screenshots/
+audit-findings/
+client-data/
+customer-data/
+internal-reports/
+
+# --- AI / RAG internals ---
+embeddings/
+vectorstore/
+vector-store/
+rag/
+private-prompts/
+agent-instructions.local.md
+*.faiss
+*.pkl
+*.joblib
+
+# --- Databases ---
+*.sqlite
+*.sqlite3
+*.db
+
+# --- Temp / editor ---
+*.tmp
+*.bak
+*.orig
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / packaging ---
+*.log
+logs/
+.cache/
