@@ -1,0 +1,6 @@
+profile_id: generic
+title: Generic numbered regulatory instrument
+match:
+  filename_contains: []
+  sha256: null
+validation_clauses: []

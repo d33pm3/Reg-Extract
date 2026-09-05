@@ -1,0 +1,12 @@
+profile_id: rbi_master_directions_rbc_2025
+title: Reserve Bank of India (Commercial Banks - Responsible Business Conduct) Directions, 2025
+match:
+  filename_contains:
+    - RBI Master Directions
+    - Responsible Business Conduct
+  sha256: db696bdf895d00a876a28df87e1e1c89151a679c01f3657a837a2adab67b54b9
+validation_clauses:
+  - id: "129"
+    navigation_hint: duplicate demand drafts
+  - id: "358"
+    navigation_hint: delay in release of property documents

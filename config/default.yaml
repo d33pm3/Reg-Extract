@@ -1,0 +1,12 @@
+strict_mode: true
+layout_engine: docling
+compatibility_layout_engine: pdfplumber
+ocr_engine: pytesseract
+metadata_mode: deterministic
+llm_enrichment: false
+page_reference: physical_pdf_page
+min_text_chars: 20
+permit_compatibility_agent_bind: true
+smoke_clauses:
+  - "129"
+  - "358"
