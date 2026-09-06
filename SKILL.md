@@ -1,9 +1,11 @@
 ---
 name: regextractor
 description: Deterministic source-only extractor for numbered clauses in regulatory PDFs (RBI Master Directions, circulars, gazette instruments). Use when asked to extract obligations, build a clause register, map physical PDF pages, run RegExtractor, smoke-test clauses such as 129 and 358, emit a source inventory, or bind a read-only evidence adapter. Never answer those questions from model memory.
+author: DK Mendiratta
 metadata:
   version: "1.3.0"
   type: workflow
+  author: DK Mendiratta
 ---
 
 # RegExtractor
